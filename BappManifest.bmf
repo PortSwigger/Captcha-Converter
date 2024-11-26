@@ -1,0 +1,13 @@
+Uuid: 7d9b27e50c6c496eacb6d0151f5bace4
+ExtensionType: 1
+Name: Captcha Converter
+RepoName: captcha-converter
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 16
+ProOnly: False
+Author: Saadet Elif Tokuoğlu
+ShortDescription: Convert Base64 data from a JSON response to an image.
+EntryPoint: target/CaptchaConverter-1.0-SNAPSHOT.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
+SupportedProducts: Pro, Community
